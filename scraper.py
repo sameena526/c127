@@ -22,8 +22,8 @@ def scrape():
                         temp_list.append(li_tag.contents[0])
                     except:
                         temp_list.append("")
-            link=temp_list[0]
-            eexoplanets.nasa....+link
+           
+             
             planet_data.append(temp_list)
         browser.find_element_by_xpath('//*[@id="primary_column"]/footer/div/div/div/nav/span[2]/a').click()
     with open("scrapper_2.csv", "w") as f:
